@@ -1,12 +1,7 @@
-package jumping_on_the_clouds;
+package warm_up_problems.jumping_on_the_clouds;
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 public class Solution {
 
@@ -20,6 +15,31 @@ public class Solution {
         return jumps;
 
     }
+    static int simpleJumpingOnClouds(int[] c) {
+        int jumps = 0;
+        int currentZeros = 0;
+
+        for(int cloud : c)
+        {
+            if(cloud==0)
+            {
+                currentZeros += 1;
+            }
+            else if(cloud==1)
+            {
+                jumps += currentZeros/2;
+                currentZeros = 0;
+                jumps += 1;
+            }
+        }
+        jumps += currentZeros/2;
+
+        return jumps;
+
+    }
+
+
+
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -59,6 +79,13 @@ public class Solution {
 
         System.out.println("3: " + jumpingOnClouds(new int[] {0,1,0,1,0,1,0}));
         System.out.println("3: " + jumpingOnClouds(new int[] {0,0,0,0,1,0}));
+
+        System.out.println("Simple 3: " + simpleJumpingOnClouds(new int[] {0,0,0,0,1,0}));
+        System.out.println("Simple 4: " + simpleJumpingOnClouds(new int[] {0,0,1,0,0,1,0}));
+        System.out.println("Simple 3: " + simpleJumpingOnClouds(new int[] {0,0,0,1,0,0}));
+        System.out.println("Simple 9: " + simpleJumpingOnClouds(new int[] {0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0}));
+        System.out.println("Simple 3: " + simpleJumpingOnClouds(new int[] {0,1,0,1,0,1,0}));
+        System.out.println("Simple 3: " + simpleJumpingOnClouds(new int[] {0,0,0,0,1,0}));
 
 
     }

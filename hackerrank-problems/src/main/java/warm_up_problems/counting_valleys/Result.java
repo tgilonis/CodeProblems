@@ -1,4 +1,4 @@
-package counting_valleys;
+package warm_up_problems.counting_valleys;
 
 import java.io.*;
 
