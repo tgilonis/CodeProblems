@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67c8b455-534e-483a-a722-486835e11a6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/mininum_swaps_2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/mininum_swaps_2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/new_year_chaos/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/new_year_chaos/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="C:\ws\code-problems\hackerrank-problems\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.new_year_chaos.Solution" />
       <module name="hackerrank-problems" />
@@ -92,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.array_manipulation.Solution" />
+      <module name="hackerrank-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.array_manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="warm_up_problems.jumping_on_the_clouds.Solution" />
       <module name="hackerrank-problems" />
@@ -107,8 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -160,25 +174,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610656676619" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610719385316">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1610731844190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610719385316" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610731844190" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641691" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610719385316">
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1610731844190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610719385316" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610731844190" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641690" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610719385315">
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1610731844189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610719385315" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610731844189" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610719385316">
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1610731844190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610719385316" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610731844190" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641690" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1610656868355">
       <screen x="0" y="0" width="1920" height="1040" />

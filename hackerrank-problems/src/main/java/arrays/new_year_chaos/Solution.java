@@ -16,52 +16,28 @@ public class Solution
         //as such, if a number is more than 2 forwards the queue is too chaotic
 
             //if a number is more than 2 forwards the queue is too chaotic
-        boolean chaos = false;
+        int bribes = 0;
 
         for (int i = 0; i < q.length; i++)
         {
             if (q[i] - (i + 1) > 2)
             {
                 System.out.println("Too chaotic");
-                chaos = true;
+                return;
             }
-        }
-
-        int bribes = 0;
-
-        if(!chaos)
-        {
-            //locate each number (incrementally), check if in correct position
-            //if not, swap until in correct position, and count
-            for (int i = 0; i < q.length; i++)
+            //for each number, check how many larger numbers are to its left, and add to bribes
+            //theory here is that every larger number in front of a number must have bribed that number before
+            for(int j = i -1; j >= 0; j--)
             {
-                int currentNum = i+1;
-                int currentNumIndex = 0;
-                while(currentNum!=q[currentNumIndex])
-                    currentNumIndex++;
-                while(currentNumIndex!=i)
-                {
-                    if(currentNumIndex>i) //if greater, need to move left
-                    {
-                        int numLeft = q[currentNumIndex - 1];
-                        //System.out.println("Current numRight = " + numRight);
-                        q[currentNumIndex] = numLeft;
-                        q[currentNumIndex - 1] = currentNum;
-                        currentNumIndex--;
-                    }
-                    else
-                    {
-                        int numRight = q[currentNumIndex + 1];
-                        //System.out.println("Current numRight = " + numRight);
-                        q[currentNumIndex] = numRight;
-                        q[currentNumIndex + 1] = currentNum;
-                        currentNumIndex++;
-                    }
+                if(q[j]>q[i])
                     bribes++;
-                }
             }
-            System.out.println(bribes);
         }
+        System.out.println(bribes);
+
+
+
+
         /*
         1 2 5 3 7 8 6 4 -- 7
         (get 3 back)
