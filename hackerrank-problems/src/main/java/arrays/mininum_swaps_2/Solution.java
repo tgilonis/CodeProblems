@@ -8,32 +8,21 @@ public class Solution
         int numSwaps = 0;
         for(int i = 0; i < arr.length; i ++)
         {
-            int desiredNum = i+1;
-            int currentNumIndex = 0;
-            while(desiredNum!=arr[currentNumIndex])
+            if (i+1!= arr[i])
             {
-                /*System.out.println("Desired num = " + desiredNum);
-                System.out.println("Current num = " + arr[currentNumIndex]);
-                System.out.println("Current numIndex = " + currentNumIndex);*/
+                int currentNumIndex = i;
+                while (i+1 != arr[currentNumIndex])
+                {
+                    currentNumIndex++;
+                }
+                    int numToSwap = arr[currentNumIndex];
+                    arr[currentNumIndex] = arr[i];
+                    arr[i] = numToSwap;
+                    numSwaps++;
 
-
-                currentNumIndex++;
             }
-            //System.out.println(Arrays.toString(arr));
-            if(i!=currentNumIndex)
-            {
-                int numToSwap = arr[i];
-                arr[i] = desiredNum;
-                arr[currentNumIndex] = numToSwap;
-                numSwaps++;
-            }
-            //System.out.println(Arrays.toString(arr));
-
         }
-        //System.out.println(Arrays.toString(arr));
         return numSwaps;
-
-
     }
 
     public static void main(String[] args)
