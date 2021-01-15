@@ -7,13 +7,16 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
+import java.util.stream.IntStream;
 
 public class Solution {
 
     // Complete the rotLeft function below.
     static int[] rotLeft(int[] a, int d) {
 
-        return null;
+
+        return IntStream.range(0, a.length).map(num -> a[(num+d)%a.length]).toArray();
+
     }
 
     private static final Scanner scanner = new Scanner(System.in);

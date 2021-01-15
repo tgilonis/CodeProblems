@@ -21,13 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="67c8b455-534e-483a-a722-486835e11a6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/counting_valleys/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warm_up_problems/counting_valleys/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/counting_valleys/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warm_up_problems/counting_valleys/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jumping_on_the_clouds/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warm_up_problems/jumping_on_the_clouds/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jumping_on_the_clouds/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warm_up_problems/jumping_on_the_clouds/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales_by_match/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warm_up_problems/sales_by_match/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales_by_match/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/warm_up_problems/sales_by_match/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jumping_on_the_clouds/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jumping_on_the_clouds/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/left_rotation/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/left_rotation/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counting_valleys/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counting_valleys/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jumping_on_the_clouds/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales_by_match/Solution.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,20 @@
       <recent name="C:\ws\code-problems\hackerrank-problems\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.new_year_chaos.Solution" />
+      <module name="hackerrank-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.new_year_chaos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="warm_up_problems.jumping_on_the_clouds.Solution" />
       <module name="hackerrank-problems" />
@@ -87,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -138,25 +150,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610656676619" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610699838258">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610716901953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610699838258" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610716901953" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641691" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610699838257">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610716901952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610699838257" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610716901952" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641690" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610699838256">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610716901952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610699838256" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610716901952" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610699838258">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610716901953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610699838258" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610716901953" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610660641690" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1610656868355">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -166,5 +178,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610657047404" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610708823370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610708823370" />
   </component>
 </project>
