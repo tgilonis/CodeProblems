@@ -1,7 +1,6 @@
-package dictionaries_and_hashmaps.sherlock_and_anagarms;
+package dictionaries_and_hashmaps.sherlock_and_anagrams;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 
 public class Solution
