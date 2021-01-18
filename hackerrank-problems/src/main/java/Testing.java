@@ -43,6 +43,16 @@ public class Testing
         return 0;
     }
 
+    static int makeAnagram(String a, String b)
+    {
+        return 0;
+    }
+
+    static int alternatingCharacters(String s)
+    {
+        return 0;
+    }
+
 
     public static void main(String[] args)
     {
