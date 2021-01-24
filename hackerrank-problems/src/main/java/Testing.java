@@ -64,7 +64,7 @@ public class Testing
         //System.out.println(sherlockAndAnagrams("ifailuhkqq"));
         //System.out.println(sherlockAndAnagrams("kkkk"));
 
-        System.out.println(countTriplets(Arrays.asList(1L,2L,1L,2L,4L), 2));
+        //System.out.println(countTriplets(Arrays.asList(1L,2L,1L,2L,4L), 2));
 
 
     }
